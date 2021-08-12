@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/https/CleveresTT.github.io/react-application/static/css/main.d593c204.chunk.css",
-    "main.js": "/https/CleveresTT.github.io/react-application/static/js/main.cc90942f.chunk.js",
-    "main.js.map": "/https/CleveresTT.github.io/react-application/static/js/main.cc90942f.chunk.js.map",
-    "runtime-main.js": "/https/CleveresTT.github.io/react-application/static/js/runtime-main.efa3fcf8.js",
-    "runtime-main.js.map": "/https/CleveresTT.github.io/react-application/static/js/runtime-main.efa3fcf8.js.map",
-    "static/js/2.f2631421.chunk.js": "/https/CleveresTT.github.io/react-application/static/js/2.f2631421.chunk.js",
-    "static/js/2.f2631421.chunk.js.map": "/https/CleveresTT.github.io/react-application/static/js/2.f2631421.chunk.js.map",
-    "static/js/3.c4792b5d.chunk.js": "/https/CleveresTT.github.io/react-application/static/js/3.c4792b5d.chunk.js",
-    "static/js/3.c4792b5d.chunk.js.map": "/https/CleveresTT.github.io/react-application/static/js/3.c4792b5d.chunk.js.map",
-    "static/js/4.b0110e0d.chunk.js": "/https/CleveresTT.github.io/react-application/static/js/4.b0110e0d.chunk.js",
-    "static/js/4.b0110e0d.chunk.js.map": "/https/CleveresTT.github.io/react-application/static/js/4.b0110e0d.chunk.js.map",
-    "index.html": "/https/CleveresTT.github.io/react-application/index.html",
-    "static/css/main.d593c204.chunk.css.map": "/https/CleveresTT.github.io/react-application/static/css/main.d593c204.chunk.css.map",
-    "static/js/2.f2631421.chunk.js.LICENSE.txt": "/https/CleveresTT.github.io/react-application/static/js/2.f2631421.chunk.js.LICENSE.txt"
+    "main.css": "/react-application/static/css/main.d593c204.chunk.css",
+    "main.js": "/react-application/static/js/main.cc90942f.chunk.js",
+    "main.js.map": "/react-application/static/js/main.cc90942f.chunk.js.map",
+    "runtime-main.js": "/react-application/static/js/runtime-main.74f2abd3.js",
+    "runtime-main.js.map": "/react-application/static/js/runtime-main.74f2abd3.js.map",
+    "static/js/2.f2631421.chunk.js": "/react-application/static/js/2.f2631421.chunk.js",
+    "static/js/2.f2631421.chunk.js.map": "/react-application/static/js/2.f2631421.chunk.js.map",
+    "static/js/3.c4792b5d.chunk.js": "/react-application/static/js/3.c4792b5d.chunk.js",
+    "static/js/3.c4792b5d.chunk.js.map": "/react-application/static/js/3.c4792b5d.chunk.js.map",
+    "static/js/4.b0110e0d.chunk.js": "/react-application/static/js/4.b0110e0d.chunk.js",
+    "static/js/4.b0110e0d.chunk.js.map": "/react-application/static/js/4.b0110e0d.chunk.js.map",
+    "index.html": "/react-application/index.html",
+    "static/css/main.d593c204.chunk.css.map": "/react-application/static/css/main.d593c204.chunk.css.map",
+    "static/js/2.f2631421.chunk.js.LICENSE.txt": "/react-application/static/js/2.f2631421.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.efa3fcf8.js",
+    "static/js/runtime-main.74f2abd3.js",
     "static/js/2.f2631421.chunk.js",
     "static/css/main.d593c204.chunk.css",
     "static/js/main.cc90942f.chunk.js"
