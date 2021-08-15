@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef, useMemo, useCallback, useContext} from 'react'
 //import { useToggleAlert } from './Alert/AlertContext'
-import { useAlert } from './Alert/AlertContext'
+import { useAlert } from './AlertContext'
 
 function Main(){
     //const toggle = useToggleAlert()

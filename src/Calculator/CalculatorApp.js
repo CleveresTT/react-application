@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useContext} from 'react'
-import { CalcContext } from './App'
+import { CalcContext } from '../App'
 
 function CalculatorApp(){
     const calcState = useContext(CalcContext)
@@ -77,22 +77,18 @@ function CalculatorApp(){
                     switch (S[S.length - 1]) {
                         case '+':
                             res[res.length-2]=res[res.length-2]+res[res.length-1];
-                            console.log(res[res.length-2]);
                             res.pop();
                             break;
                         case '-':
                             res[res.length-2]=res[res.length-2]-res[res.length-1];
-                            console.log(res[res.length-2]);
                             res.pop();
                             break;
                         case '*':
                             res[res.length-2]=res[res.length-2]*res[res.length-1];
-                            console.log(res[res.length-2]);
                             res.pop();
                             break;
                         case '/':
                             res[res.length-2]=res[res.length-2]/res[res.length-1];
-                            console.log(res[res.length-2]);
                             res.pop();
                             break;
                         default:
@@ -112,22 +108,18 @@ function CalculatorApp(){
                             switch (S[S.length - 1]) {
                                 case '+':
                                     res[res.length-2]=res[res.length-2]+res[res.length-1];
-                                    console.log(res[res.length-2]);
                                     res.pop();
                                     break;
                                 case '-':
                                     res[res.length-2]=res[res.length-2]-res[res.length-1];
-                                    console.log(res[res.length-2]);
                                     res.pop();
                                     break;
                                 case '*':
                                     res[res.length-2]=res[res.length-2]*res[res.length-1];
-                                    console.log(res[res.length-2]);
                                     res.pop();
                                     break;
                                 case '/':
                                     res[res.length-2]=res[res.length-2]/res[res.length-1];
-                                    console.log(res[res.length-2]);
                                     res.pop();
                                     break;
                                 default:
@@ -161,33 +153,38 @@ function CalculatorApp(){
             }
         }
         while(S.length!==0){
-            switch (S[S.length - 1]) {
+            switch (S[0]) {
                 case '+':
-                    res[res.length-2]=res[res.length-2]+res[res.length-1];
-                    console.log(res[res.length-2]);
+                    res[1]=res[0]+res[1];
+                    res.reverse();
                     res.pop();
+                    res.reverse();
                     break;
                 case '-':
-                    res[res.length-2]=res[res.length-2]-res[res.length-1];
-                    console.log(res[res.length-2]);
+                    res[1]=res[0]-res[1];
+                    res.reverse();
                     res.pop();
+                    res.reverse();
                     break;
                 case '*':
-                    res[res.length-2]=res[res.length-2]*res[res.length-1];
-                    console.log(res[res.length-2]);
+                    res[1]=res[0]*res[1];
+                    res.reverse();
                     res.pop();
+                    res.reverse();
                     break;
                 case '/':
-                    res[res.length-2]=res[res.length-2]/res[res.length-1];
-                    console.log(res[res.length-2]);
+                    res[1]=res[0]/res[1];
+                    res.reverse();
                     res.pop();
+                    res.reverse();
                     break;
                 default:
                     throw new Error('Compute error')
             }
+            S.reverse();
             S.pop();
+            S.reverse();
         }
-        console.log('Result: ', res[0]);
         if (!res[0]) return ('')
         return(Number(res[0].toFixed(8)));
     }

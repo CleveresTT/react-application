@@ -1,6 +1,6 @@
 import React from 'react'
 import Alert from './Alert/Alert'
-import Main from './Main'
+import Main from './Alert/Main'
 import { AlertProvider } from './Alert/AlertContext'
 
 

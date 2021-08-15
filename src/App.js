@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import ToDoListApp from './ToDoListApp'
-import CalculatorApp from './CalculatorApp'
+import ToDoListApp from './Todo/ToDoListApp'
+import CalculatorApp from './Calculator/CalculatorApp'
 import Modal from './Modal/Modal'
 
 export const CalcContext = React.createContext()
